@@ -23,7 +23,7 @@ width: 100%;
 body{
 display: flex;
 flex-direction: column;
-min-height: 100v;
+min-height: 100vg;
 background-color: violet;
 }
 main{
@@ -33,6 +33,32 @@ flex-direction: center;
 }
 
 .cabecalho-link{
-color: aqua;
+color: rgb(0, 255, 34);
 text-decoration: none;
+}
+
+h1{
+ color: lawngreen;
+ font: size 24px;
+ }
+
+ footer{
+    background-color: aqua;
+    pedding: 15px 25px;
+    color: blue;
+    
+}
+
+.cartao-interno{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cartao-hover, .cartao-interno{
+    transform: rotateY(180deg);
+}
+
+cartao-frente; .cartao-verso{
+    
 }
