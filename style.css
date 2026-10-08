@@ -59,6 +59,16 @@ h1{
     transform: rotateY(180deg);
 }
 
-cartao-frente; .cartao-verso{
-    
+cartao-frente, .cartao-verso{
+    position:absolute;
+    border-radius: 12px rgba;
+    beckface-visibility: hidden;
+
+}
+   .cartao-verso{
+    transform: rotateY(180deg);
+} 
+section{
+    display: flex;
+    gap: 16px
 }
